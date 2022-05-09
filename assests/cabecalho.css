@@ -1,0 +1,72 @@
+.container-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 57px 80px 0 80px;
+}
+.menu-img {
+    width: 162px;
+    height: 66px;
+    margin-right: 149px;
+}
+.menu {
+    display: flex;
+    margin-right: 30px;
+    gap: 50px;
+}
+.menu-links {
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    color: #808080;
+}
+.container-pesquisa {
+    display: flex;
+    border: solid 1px red;
+    align-items: center;
+    width: 414px;
+    height: 52px;
+    background: #F6F6F6;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    position: relative;
+}
+.pesquisa {
+    border: none;
+    background: #F6F6F6;
+    color: #000000;
+    height: 44px;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    margin-left: 17px;
+    margin-right: 0;
+    padding-left: 5px;
+    width: 80%;
+}
+.container-pesquisa button {
+    border: none;
+    background: #F6F6F6;
+    right: 10px;
+    position: absolute;
+}
+.container-pesquisa img {
+    cursor: pointer;
+}
+.pesquisa:focus {
+    border: none;
+}
+
+.menu-links:hover,
+.lupa:hover {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.9);
+    transform: scale(1.1);
+}

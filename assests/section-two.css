@@ -1,0 +1,125 @@
+.container-descrição {
+    margin: 99px 105px 0 100px;
+    width: 555px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.descrição-titulo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 123px;
+    line-height: 150px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    position: relative;
+}
+.teste {
+    width: 555px;
+}
+#muda-cor-text {
+    position: absolute;
+    top: -2px;
+    right: 9px;
+    font-weight: 700;
+    font-size: 123px;
+    line-height: 150px;
+    letter-spacing: 0.05em;
+}
+.descrição-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #808080;
+    margin-left: 10px;
+}
+.descrição-button {
+    width: 324px;
+    height: 71px;
+    background: #FB5014;
+    box-shadow: 0px 5px 7px rgba(251, 80, 20, 0.25);
+    border-radius: 30px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+
+.text-blue {
+    color: #17B4CC;
+}
+.text-red {
+    color: #fd0404;
+}
+.text-orenge {
+    color: #FB5014;
+}
+
+
+.tenis-blue-theree {
+    background-image: url(/imagens/nike-one-blue.svg);
+    background-repeat: no-repeat, no-repeat;
+    width: 775px;
+    height: 583px;
+}
+.tenis-blue-two {
+    background-image: url(/imagens/nike-theree-blue2.svg);
+    background-repeat: no-repeat, no-repeat;
+    width: 700px;
+}
+.tenis-red-one {
+    background-image: url(/imagens/nike-two-red.svg);
+    background-repeat: no-repeat, no-repeat;
+    width: 700px;
+}
+
+#img-mude {
+    position: relative;
+    width: 699px;
+    height: 583px;
+}
+.button-img-one,
+.button-img-two,
+.button-img-theree {
+    cursor: pointer;
+    width: 131px;
+    height: 131px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    position: absolute;
+    right: -150px;
+    border-radius: 50%;
+}
+
+.button-img-two {
+    top: 200px;
+}
+.button-img-theree {
+    top: 400px;
+}
+
+
+.button-img-one:hover,
+.button-img-two:hover,
+.button-img-theree:hover,
+.descrição-button:hover {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.9);
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
